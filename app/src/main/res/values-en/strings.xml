@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Classroom better</string>
+    <string name="identifiant">Login</string>
+    <string name="mdp">Password</string>
+    <string name="auth">Sign in</string>
+</resources>

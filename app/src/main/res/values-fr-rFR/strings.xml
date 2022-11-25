@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salle de class mieux</string>
+    <string name="identifiant">identifiant</string>
+    <string name="mdp">Mots de passe</string>
+    <string name="auth">S\'authentifier</string>
+</resources>
