@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -13,15 +14,20 @@
         android:id="@+id/messageInterne"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="TEST"
+        android:text=""
         />
 
-    <GridView
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageInterne"
+        android:id="@+id/spinnerList"/>
+
+    <!--<GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/gview"
         android:layout_below="@id/messageInterne">
-
-    </GridView>
+    </GridView>-->
 
 </RelativeLayout>
