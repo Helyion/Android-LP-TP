@@ -23,11 +23,17 @@
         android:layout_below="@+id/messageInterne"
         android:id="@+id/spinnerList"/>
 
-    <!--<GridView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/gview"
-        android:layout_below="@id/messageInterne">
-    </GridView>-->
+    <!--<Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerList"
+            android:id="@+id/spinnerV2"/>-->
+
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerList"
+            android:numColumns="2"
+            android:id="@+id/listView"/>
 
 </RelativeLayout>
